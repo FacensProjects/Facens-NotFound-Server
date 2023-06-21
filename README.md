@@ -75,6 +75,8 @@ Agora você pode acessar e gerenciar o servidor com o usuario criado localmente 
 ## 📱 Aplicativo Facens-NotFound
 O NotFound Server foi desenvolvido como parte integrante do aplicativo externo [Facens-NotFound-App](https://github.com/FacensProjects/Facens-NotFound-App/). Esses dois projetos trabalham em conjunto para fornecer uma solução completa de gerenciamento de dados acadêmicos.
 
+![NotFound App](images/app-demo.png)
+
 ## 👥 Desenvolvedores
 * [WhitePoodleMoth](https://github.com/WhitePoodleMoth)
 
