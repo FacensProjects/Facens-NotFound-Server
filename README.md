@@ -4,6 +4,8 @@
 
 O NotFound Server é um projeto desenvolvido com Python e Django que tem como objetivo gerenciar dados acadêmicos de alunos de faculdades. Este servidor foi projetado para ser uma solução robusta e flexível para a gestão de dados acadêmicos, proporcionando uma interface amigável e intuitiva.
 
+![NotFound Server Dashboard](images/panel-demo.png)
+
 ## 🔧 Como foi feito o servidor
 
 O servidor foi construído usando Python, uma linguagem de programação de alto nível, junto com o Django, um framework de alto nível em Python que incentiva o desenvolvimento rápido e o design limpo e pragmático. O Django foi escolhido por sua arquitetura baseada em modelo-visão-controlador (MVC), que permite a separação clara entre a lógica de negócios e a interface do usuário.
