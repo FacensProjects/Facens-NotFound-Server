@@ -68,6 +68,10 @@ python manage.py runserver
 
 Agora você pode acessar e gerenciar o servidor com o usuario criado localmente no endereço: http://127.0.0.1:8000/admin
 
+![Class Manager](images/class-demo.png)
+![Notification Manager](images/notification-demo.png)
+![Student Inscrition Manager](images/student-inscrition-demo.png)
+
 ## 👥 Desenvolvedores
 [WhitePoodleMoth](https://github.com/WhitePoodleMoth)
 
