@@ -8,11 +8,15 @@ O NotFound Server é um projeto desenvolvido com Python e Django que tem como ob
 
 O servidor foi construído usando Python, uma linguagem de programação de alto nível, junto com o Django, um framework de alto nível em Python que incentiva o desenvolvimento rápido e o design limpo e pragmático. O Django foi escolhido por sua arquitetura baseada em modelo-visão-controlador (MVC), que permite a separação clara entre a lógica de negócios e a interface do usuário.
 
+## 💻 Tecnologias Utilizadas
+- 🐍 Python: Linguagem de programação empregada na implementação do servidor.
+- 🚀 Django: Framework Python utilizado para estruturar o servidor.
+
 ## 📋 Requisitos para utilizar o sistema
 
 Para rodar o NotFound Server na sua máquina, você precisa ter os seguintes requisitos instalados:
 
-- Python (versão 3.7 ou superior)
+- 🐍 Python (versão 3.7 ou superior)
 
 Além disso, é necessário que você tenha um conhecimento básico de como usar a linha de comando no seu sistema operacional.
 
