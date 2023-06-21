@@ -31,19 +31,13 @@ git clone https://github.com/FacensProjects/Facens-NotFound-Server.git
 Em seguida, entre na pasta do projeto com o comando:
 
 ```sh
-cd Facens-NotFound-Server
+cd Facens-NotFound-Server/server
 ```
 
 Agora, instale as dependências do projeto usando o pip, o gerenciador de pacotes do Python:
 
 ```sh
 pip install -r requirements.txt
-```
-
-Em seguida, entre na pasta do servidor com o comando:
-
-```sh
-cd server
 ```
 
 Depois de instalar as dependências, você precisa configurar o banco de dados. O Django facilita essa tarefa com o comando makemigrations:
