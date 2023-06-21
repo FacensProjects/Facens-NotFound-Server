@@ -40,6 +40,12 @@ Agora, instale as dependências do projeto usando o pip, o gerenciador de pacote
 pip install -r requirements.txt
 ```
 
+Em seguida, entre na pasta do servidor com o comando:
+
+```sh
+cd server
+```
+
 Depois de instalar as dependências, você precisa configurar o banco de dados. O Django facilita essa tarefa com o comando makemigrations:
 
 ```sh
