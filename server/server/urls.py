@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from facens.views import home, search, api_search
+from facens.views import api_search
 
 urlpatterns = [
     path('admin/', admin.site.urls),
