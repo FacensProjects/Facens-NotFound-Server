@@ -56,15 +56,9 @@ def search_ra(ra):
 
 		notification = []
 		current_datetime = timezone.now()
-		result = Notification.objects.filter(course__isnull=True,date=current_datetime.date())
-		for notf in result:
-			notification.append({
-					"teacher"     : notf.teacher.user.first_name,
-					"title"       : notf.title,
-					"description" : notf.description,
-					})
-
-		result = Notification.objects.filter(course=course,date=current_datetime.date())
+		query1 = Notification.objects.filter(course__isnull=True,date=current_datetime.date())
+		query2 = Notification.objects.filter(course=course,date=current_datetime.date())
+		result = query1.union(query2)
 		for notf in result:
 			notification.append({
 					"teacher"     : notf.teacher.user.first_name,
