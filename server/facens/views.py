@@ -44,6 +44,7 @@ def search_ra(ra):
 						"status"   : True,
 						"location" : current_class.location.region.name,
 						"class"    : current_class.location.name,
+						"name"     : current_class.name,
 						"course"   : course.name,
 						"course"   : current_class.name,
 						"teacher"  : current_class.teacher.user.first_name,
