@@ -5,6 +5,7 @@ from django.utils import timezone
 from facens.models import *
 
 from datetime import datetime
+import json
 
 # Create your views here.
 
@@ -81,15 +82,16 @@ def search_ra(ra):
 
 @csrf_exempt
 def api_search(request):
-	if request.method == "POST":
-		ra = request.POST.get("ra")
-		context = search_ra(ra)
+    if request.method == "POST":
+        data = json.loads(request.body)
+        ra = data.get("ra")
+        context = search_ra(ra)
 
-		return JsonResponse(context)
-	else:
-		context = {
-				"status": False,
-				"description": "Acesso restrito."
-		}
-		return JsonResponse(context)
+        return JsonResponse(context)
+    else:
+        context = {
+            "status": False,
+            "description": "Acesso restrito."
+        }
+        return JsonResponse(context)
 
