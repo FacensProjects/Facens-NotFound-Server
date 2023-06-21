@@ -46,7 +46,6 @@ def search_ra(ra):
 						"class"    : current_class.location.name,
 						"name"     : current_class.name,
 						"course"   : course.name,
-						"course"   : current_class.name,
 						"teacher"  : current_class.teacher.user.first_name,
 						"start"    : current_class.get_start(),
 						"end"      : current_class.get_end(),
