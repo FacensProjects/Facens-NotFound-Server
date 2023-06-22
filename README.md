@@ -84,4 +84,4 @@ O NotFound Server foi desenvolvido como parte integrante do aplicativo externo [
 
 ## 📄 Licença
 
-O NotFound Server é licenciado sob a Licença MIT. Veja o arquivo [LICENSE](https://github.com/FacensProjects/Facens-NotFound-Server/blob/main/LICENSE) para mais detalhes.
+O NotFound Server é licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
