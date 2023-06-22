@@ -72,8 +72,11 @@ Agora você pode acessar e gerenciar o servidor com o usuario criado localmente 
 ![Notification Manager](images/notification-demo.png)
 ![Student Inscrition Manager](images/student-inscrition-demo.png)
 
+## 📱 Aplicativo Facens-NotFound
+O NotFound Server foi desenvolvido como parte integrante do aplicativo externo [Facens-NotFound-App](https://github.com/FacensProjects/Facens-NotFound-App/). Esses dois projetos trabalham em conjunto para fornecer uma solução completa de gerenciamento de dados acadêmicos.
+
 ## 👥 Desenvolvedores
-[WhitePoodleMoth](https://github.com/WhitePoodleMoth)
+* [WhitePoodleMoth](https://github.com/WhitePoodleMoth)
 
 ## 📄 Licença
 O NotFound Server é licenciado sob a MIT License. Veja o arquivo [LICENSE](https://github.com/FacensProjects/Facens-NotFound-Server/blob/main/LICENSE) para mais detalhes.
