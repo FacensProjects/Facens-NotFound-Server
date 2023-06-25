@@ -1,4 +1,4 @@
-# 🎓 NotFound Server
+# 🎓 NotFound Server (Segundo Semestre)
 
 ## 📘 Sobre o Projeto
 
